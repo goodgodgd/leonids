@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: IanFlow
-email:
-description: What flows in Ian's mind
+title: leonids-theme
+email: goodgodgd@naver.com
+description: leonids-theme customized by Ian
 url: "/leonoids-theme"
 keywords: ["blog", "jekyll"]
 
@@ -53,19 +53,3 @@ owner:
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   skype: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
-  reddit: #username
-  telegram: #username
