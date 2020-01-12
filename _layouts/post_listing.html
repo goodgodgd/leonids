@@ -4,13 +4,13 @@ layout: default
 
 {% for post in site.posts %}
     <div class="home-post-list">
-        <h2><a href="{{ post.url }}" class="link-post_list">{{ post.title }}</a></h2>        
+        <h2><a href="{{ site.baseurl }}{{ post.url }}" class="link-post_list">{{ post.title }}</a></h2>        
         <p class="post-meta">
             {{ post.date | date: "%b %d, %Y" }} category: {{ post.categories }}
         </p>
         <div class="post-list-content">
             {{ post.excerpt | strip_html | truncatewords: 30 }}
-            <p class="text-right"><a href="{{ post.url }}">read more...</a></p>
+            <p class="text-right"><a href="{{ site.baseurl }}{{ post.url }}">read more...</a></p>
         </div>
     </div>
 
