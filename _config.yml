@@ -6,7 +6,8 @@
 title: leonids-theme
 email: goodgodgd@naver.com
 description: leonids-theme customized by Ian
-url: "/leonoids-theme"
+
+baseurl: "/leonoids-theme"
 keywords: ["blog", "jekyll"]
 
 #
